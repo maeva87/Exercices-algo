@@ -1,5 +1,5 @@
 function calculateAverage(scores) {
-  if (scores.length === 0) return 0;
+  if (scores.length === 0) return null;
   return scores.reduce((acc, val) => acc + val) / scores.length;
 }
 
